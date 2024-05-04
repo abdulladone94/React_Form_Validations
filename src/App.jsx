@@ -1,7 +1,11 @@
+import { Navigation } from './components'
+import { Form } from './Form'
+
 function App() {
   return (
     <div>
-      <h1>React Form Validation</h1>
+      <Navigation />
+      <Form />
     </div>
   )
 }
